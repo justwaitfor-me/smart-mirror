@@ -33,6 +33,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
+    height: 30px;
 }
 
 .header-ul-li {
@@ -47,6 +48,22 @@ body {
     cursor: pointer;
     padding: 3px;
     padding-left: 15px;
+    font-size: medium;
+}
+
+.nav-div-main {
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-div-left {
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-div-right {
+    justify-content: space-between;
+    display: flex;
 }
 
 .sec_a {
